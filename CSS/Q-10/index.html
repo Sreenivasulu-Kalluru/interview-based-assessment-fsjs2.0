@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Layout</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #c4ebf9;
+        color: #fefefe;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding: 30px 20px;
+      }
+
+      header {
+        background-color: #02bfb1;
+        padding: 15px;
+      }
+
+      main {
+        display: flex;
+        gap: 40px;
+        height: 80vh;
+        margin-top: 40px;
+      }
+
+      aside {
+        background-color: #6edb6e;
+        width: 30%;
+      }
+
+      aside h2 {
+        margin-top: 250px;
+      }
+
+      article {
+        background-color: #fbb04c;
+        width: 70%;
+      }
+
+      article h2 {
+        margin-top: 240px;
+      }
+
+      .img-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        justify-content: space-around;
+      }
+
+      .img {
+        background-color: #fcd24a;
+        width: 220px;
+        height: 220px;
+      }
+
+      .img h2 {
+        margin-top: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Header</h2>
+    </header>
+    <main>
+      <aside><h2>Aside</h2></aside>
+      <article>
+        <h2>Article</h2>
+        <div class="img-container">
+          <div class="img"><h2>Image</h2></div>
+          <div class="img"><h2>Image</h2></div>
+          <div class="img"><h2>Image</h2></div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
