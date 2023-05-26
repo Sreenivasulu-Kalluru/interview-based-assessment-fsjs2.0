@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 30px 50px;
+}
+
+.heading {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(20, auto);
+  gap: 10px;
+  padding: 20px 0px 20px 0px;
+  /* margin: 30px 50px; */
+}
+
+.head {
+  text-align: left;
+  width: 7vw;
+  font-weight: bold;
+  top: 5px;
+}
+
+.element {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.empty {
+  position: relative;
+  width: 7px;
+}
+
+.text {
+  /* margin-top: 5px; */
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.f-block {
+  display: grid;
+  grid-template-columns: repeat(15, auto);
+  gap: 10px;
+  width: 67vw;
+  margin: 20px 0px 30px 240px;
+}
+
+.pink,
+.yellow,
+.blue,
+.green {
+  border: 1px solid #000;
+}
+
+.pink {
+  background-color: #ff9999;
+}
+
+.yellow {
+  background-color: #fdff8c;
+}
+
+.blue {
+  background-color: #99ccff;
+}
+
+.green {
+  background-color: #9bff99;
+}
